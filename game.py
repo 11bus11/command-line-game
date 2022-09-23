@@ -3,7 +3,8 @@ ansinfo = False
 playername = "Player"
 
 class Player:
-    def _init_(self, health, power, magic):
+    def __init__(self, name, health, power, magic):
+        self.name = name
         self.health = health 
         self.power = power
         self.magic = magic
